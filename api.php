@@ -11,6 +11,7 @@
         <h1>Resultado final</h1>
         <p>
             <?php 
+
                 $num = $_POST["numero"] ?? 0;
 
                 echo "O número escolhido foi $num";
